@@ -4,13 +4,13 @@
 
 > A Chinese AI Skills toolkit for entrepreneurs and content creators. Give your Agent a real business, content, or execution problem, and get a clear judgment plus the next action you can take.
 
-[![Version](https://img.shields.io/badge/version-2.17.7-111111.svg)](VERSION)
-[![Skills](https://img.shields.io/badge/Skills-27-111111.svg)](docs/新手入门.md#skill-全目录)
+[![Version](https://img.shields.io/badge/version-2.17.12-111111.svg)](VERSION)
+[![Skills](https://img.shields.io/badge/Skills-28-111111.svg)](docs/新手入门.md#skill-全目录)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111.svg)](LICENSE)
 
 **Supported in Doubao, WorkBuddy, Claude Code, Codex, and other Agents that support Skills.**
 
-Created by [dontbesilent](https://x.com/dontbesilent), dbskill distills 4,176 structured knowledge atoms and 27 directly callable Skills from 16,152 public posts.
+Created by [dontbesilent](https://x.com/dontbesilent), dbskill distills 4,176 structured knowledge atoms and 28 directly callable Skills from 16,152 public posts.
 
 [Quick start](#quick-start) · [Install](#install) · [Capabilities](#capabilities) · [Full guide](docs/新手入门.md) · [Releases](https://github.com/dontbesilent2025/dbskill/releases)
 
@@ -60,9 +60,10 @@ When you already know the task, call a Skill directly:
 | Work through procrastination and execution blocks | `/dbs-action`, `/dbs-slowisfast` | Blocker analysis and next action |
 | Record and review long-term decisions | `/dbs-decision`, `/dbs-save`, `/dbs-restore`, `/dbs-report` | Local decision archive and reports |
 | Build content assets and multi-Agent workflows | `/dbs-content-system`, `/dbs-agent-migration`, `/dbs-bridge` | Local project, topic map, and bridge plan |
+| Turn a local folder into a knowledge base | `/dbs-knowledge` | Knowledge navigation, version rules, and ready-to-use prompts |
 | Audit local Skill risks | `/dbs-skill-cleaner` | Risk report and confirmed isolation |
 
-See the [full guide and Skill directory](docs/新手入门.md#skill-全目录) for all 27 Skills, examples, and workflows.
+See the [full guide and Skill directory](docs/新手入门.md#skill-全目录) for all 28 Skills, examples, and workflows.
 
 ## Install
 
@@ -122,7 +123,7 @@ The repository includes 4,176 structured knowledge atoms, methodology documents 
 
 ```text
 dbskill/
-├── skills/                  # 27 published Skills
+├── skills/                  # 28 published Skills + 1 update entry
 ├── 知识库/                   # Knowledge atoms, methods, and glossary
 ├── docs/                    # Guide, diagrams, and demo assets
 ├── .claude-plugin/          # Claude Code marketplace definition
