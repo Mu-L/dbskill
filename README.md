@@ -4,7 +4,7 @@
 
 > 面向创业者与内容创作者的中文 AI Skills 工具箱。把真实业务、内容与行动问题交给 Agent，获得清晰判断和可以立刻执行的下一步。
 
-[![Version](https://img.shields.io/badge/version-2.18.9-2563EB.svg?style=flat-square)](VERSION)
+[![Version](https://img.shields.io/badge/version-2.18.10-2563EB.svg?style=flat-square)](VERSION)
 [![skills.sh](https://skills.sh/b/dontbesilent2025/dbskill)](https://skills.sh/dontbesilent2025/dbskill)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-16A34A.svg?style=flat-square)](LICENSE)
 
@@ -12,13 +12,11 @@
 
 dbskill 由 [dontbesilent](https://x.com/dontbesilent) 创建。从 16,152 条公开推文中筛选、结构化出 4,176 个知识原子，并将其中的方法沉淀为 29 个可直接调用的 Skills。
 
-**v2.18.9 更新：** README 动态路由图改为横版 4:3，减少页面纵向占用；路由契约检查新增 SVG 比例校验；`dbs-bridge` 新增 WorkBuddy 桥接支持，可将 Skill 同步挂载到 `~/.workbuddy/skills`。
+**v2.18.10 更新：** README 动态路由图改用新的横版 4:3 SVG 文件名，绕过 GitHub 对旧图片地址的缓存；路由契约检查同步验证新文件，防止图示比例与 README 引用再次脱节。
 
 [快速开始](#快速开始) · [安装](#安装) · [能力一览](#能力一览) · [公开推文集](#公开推文集) · [完整使用手册](docs/新手入门.md) · [更新日志](https://github.com/dontbesilent2025/dbskill/releases)
 
-本次更新（v2.18.5）：修复微信公众号 HTML 在浏览器预览正常、粘贴到公众号后台后样式丢失的问题。正式交付 HTML 改为扁平结构和逐元素行内样式，不再依赖 `<style>`、伪元素或根容器继承。
-
-![dbskill 动态路由图](docs/skill-link-map.svg)
+![dbskill 动态路由图](docs/skill-link-map-4x3.svg)
 
 ## dbskill 解决什么问题
 

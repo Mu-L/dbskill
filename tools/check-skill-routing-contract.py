@@ -91,17 +91,17 @@ def main() -> None:
     if "没有明确／不确定" not in route_map_text or "回到 /dbs" not in route_map_text:
         errors.append("docs/skill-link-map.mmd 未体现未明确下一步时回到 /dbs")
 
-    route_svg_text = (ROOT_DIR / "docs" / "skill-link-map.svg").read_text(
+    route_svg_text = (ROOT_DIR / "docs" / "skill-link-map-4x3.svg").read_text(
         encoding="utf-8"
     )
     view_box_match = re.search(r'viewBox="([^"]+)"', route_svg_text)
     if view_box_match is None:
-        errors.append("docs/skill-link-map.svg 缺少 viewBox")
+        errors.append("docs/skill-link-map-4x3.svg 缺少 viewBox")
     else:
         _, _, width, height = map(float, view_box_match.group(1).split())
         if abs(width / height - 4 / 3) > 0.001:
             errors.append(
-                "docs/skill-link-map.svg 画布比例为 "
+                "docs/skill-link-map-4x3.svg 画布比例为 "
                 f"{width / height:.3f}，应为横版 4:3"
             )
 
